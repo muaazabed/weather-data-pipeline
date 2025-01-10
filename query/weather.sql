@@ -1,0 +1,1 @@
+SELECT MAX(main.temp) as maxtemp, MIN(main.temp) as mintemp FROM "weather_db"."raw_data";
